@@ -1,5 +1,7 @@
-import os
 import sys
+from mod import add
 
-print(os.__version__)
+
 print(sys.version)
+print(add(1, 2))
+
